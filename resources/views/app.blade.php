@@ -9,7 +9,7 @@
     @yield('meta')
     @yield('styles')
 </head>
-<body class="skin-blue layout-top-nav">
+<body class="skin-blue fixed layout-top-nav">
 
 <div class="wrapper">
     @section('header')
@@ -17,13 +17,10 @@
     @show
 
     <div class="content-wrapper">
-        <section class="content">
-            @section('alerts')
-                @include('partials.alerts')
-            @show
-            @yield('content-header')
+        <div class="content">
+            @include('partials.alerts')
             @yield('content')
-        </section>
+        </div>
     </div>
 
     @section('footer')
