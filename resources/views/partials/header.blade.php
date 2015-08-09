@@ -1,5 +1,5 @@
 <header class="main-header">
-    <nav class="navbar navbar-static-top" role="navigation">
+    <nav class="navbar navbar-fixed-top" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <a href="/" class="navbar-brand"><b>EHD</b>OnlineStore</a>
@@ -19,21 +19,23 @@
                             <li><a href="#">See all products</a></li>
                         </ul>
                     </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Corporate Info</a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Blog</a></li>
-                            <li><a href="#">About Us</a></li>
-                            <li><a href="#">Contact Us</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Showroom</a></li>
-                            <li><a href="#">Work Force</a></li>
-                            <li><a href="#">Designer Team</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Photo Gallery</a></li>
-                            <li><a href="#">Video Gallery</a></li>
-                        </ul>
-                    </li>
+                    @section('scrollspy')
+                        <li id="scrollspy" class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Corporate Info</a>
+                            <ul class="dropdown-menu">
+                                <li><a href="/#">Blog</a></li>
+                                <li><a href="/#about">About Us</a></li>
+                                <li><a href="/#">Contact Us</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="/#showroom">Showroom</a></li>
+                                <li><a href="/#workforce">Work Force</a></li>
+                                <li><a href="#">Designer Team</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Photo Gallery</a></li>
+                                <li><a href="#">Video Gallery</a></li>
+                            </ul>
+                        </li>
+                    @show
                 </ul>
 
                 <div class="navbar-custom-menu">

@@ -9,7 +9,7 @@
     @yield('meta')
     @yield('styles')
 </head>
-<body class="skin-blue fixed layout-top-nav">
+<body class="skin-blue fixed layout-top-nav" data-spy="scroll" data-target="#scrollspy">
 
 <div class="wrapper">
     @section('header')

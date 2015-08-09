@@ -13963,6 +13963,9 @@ table.text-center, table.text-center td, table.text-center th {
 .ptl {
   padding-top: 20px; }
 
+.ptxl {
+  padding-top: 50px; }
+
 .pbs {
   padding-bottom: 5px; }
 
@@ -13974,6 +13977,9 @@ table.text-center, table.text-center td, table.text-center th {
 
 .pbl {
   padding-bottom: 20px; }
+
+.pbxl {
+  padding-bottom: 50px; }
 
 .pvs {
   padding-top: 5px;
@@ -13991,6 +13997,10 @@ table.text-center, table.text-center td, table.text-center th {
   padding-top: 20px;
   padding-bottom: 20px; }
 
+.pvxl {
+  padding-top: 50px;
+  padding-bottom: 50px; }
+
 .phs {
   padding-left: 5px;
   padding-right: 5px; }
@@ -14007,6 +14017,10 @@ table.text-center, table.text-center td, table.text-center th {
   padding-left: 20px;
   padding-right: 20px; }
 
+.phxl {
+  padding-left: 50px;
+  padding-right: 50px; }
+
 .mts {
   margin-top: 5px; }
 
@@ -14019,6 +14033,9 @@ table.text-center, table.text-center td, table.text-center th {
 .mtl {
   margin-top: 20px; }
 
+.mtxl {
+  margin-top: 50px; }
+
 .mbs {
   margin-bottom: 5px; }
 
@@ -14030,6 +14047,9 @@ table.text-center, table.text-center td, table.text-center th {
 
 .mbl {
   margin-bottom: 20px; }
+
+.mbxl {
+  margin-bottom: 50px; }
 
 .mvs {
   margin-top: 5px;
@@ -14047,6 +14067,10 @@ table.text-center, table.text-center td, table.text-center th {
   margin-top: 20px;
   margin-bottom: 20px; }
 
+.mvxl {
+  margin-top: 50px;
+  margin-bottom: 50px; }
+
 .mhs {
   margin-left: 5px;
   margin-right: 5px; }
@@ -14059,8 +14083,18 @@ table.text-center, table.text-center td, table.text-center th {
   margin-left: 15px;
   margin-right: 15px; }
 
-.mhl {
-  margin-left: 20px;
-  margin-right: 20px; }
+.mhxl {
+  margin-left: 50px;
+  margin-right: 50px; }
+
+.bg-white {
+  background-color: #fff !important; }
+
+.spied {
+  padding-top: 50px;
+  margin-top: -50px; }
+
+img.img-responsive {
+  width: 100%; }
 
 /*# sourceMappingURL=app.css.map */
