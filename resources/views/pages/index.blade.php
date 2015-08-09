@@ -4,6 +4,7 @@
 
 @section('content')
     @include('pages.about')
+    @include('pages.contact')
 @endsection
 
 @section('scripts')
