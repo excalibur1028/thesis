@@ -26,6 +26,8 @@
                                 <li><a href="/#">Blog</a></li>
                                 <li><a href="/#about">About Us</a></li>
                                 <li><a href="/#">Contact Us</a></li>
+                                <li><a href="/#inquiry">Quick Inquiry</a></li>
+                                <li><a href="/#appointment">Free Estimate/Appointment</a></li>
                                 <li role="separator" class="divider"></li>
                                 <li><a href="/#showroom">Showroom</a></li>
                                 <li><a href="/#workforce">Work Force</a></li>
