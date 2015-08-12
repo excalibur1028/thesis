@@ -11,7 +11,7 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">Window Treatments</a>
+                        <a href="{{ route('products') }}" class="dropdown-toggle"  data-toggle="dropdown"  aria-expanded="false">Window Treatments</a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#">Solar Shades</a></li>
                             <li><a href="#">Roller Shades</a></li>
@@ -33,8 +33,8 @@
                                 <li><a href="/#workforce">Work Force</a></li>
                                 <li><a href="#">Designer Team</a></li>
                                 <li role="separator" class="divider"></li>
-                                <li><a href="#">Photo Gallery</a></li>
-                                <li><a href="#">Video Gallery</a></li>
+                                <li><a href="/#photo">Photo Gallery</a></li>
+                                <li><a href="/#video">Video Gallery</a></li>
                             </ul>
                         </li>
                     @show

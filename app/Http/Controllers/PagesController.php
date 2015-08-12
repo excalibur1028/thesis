@@ -17,4 +17,11 @@ class PagesController extends Controller
     {
         return view('pages.index');
     }
+
+        public function products()
+    {
+        return view('pages.products');
+    }
+
+
 }

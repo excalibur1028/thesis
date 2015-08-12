@@ -12,8 +12,8 @@
             <li><a href="#workforce">Work Force</a></li>
             <li><a href="#">Designer Team</a></li>
             <li role="separator" class="divider"></li>
-            <li><a href="#">Photo Gallery</a></li>
-            <li><a href="#">Video Gallery</a></li>
+            <li><a href="#photo">Photo Gallery</a></li>
+            <li><a href="#video">Video Gallery</a></li>
         </ul>
     </li>
 @endsection
