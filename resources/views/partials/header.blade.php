@@ -11,12 +11,12 @@
             <div class="collapse navbar-collapse" id="navbar-collapse">
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
-                        <a href="{{ route('products') }}" class="dropdown-toggle"  data-toggle="dropdown"  aria-expanded="false">Window Treatments</a>
+                        <a href="#" class="dropdown-toggle"  data-toggle="dropdown"  aria-expanded="false">Window Treatments</a>
                         <ul class="dropdown-menu" role="menu">
                             <li><a href="#">Solar Shades</a></li>
                             <li><a href="#">Roller Shades</a></li>
                             <li class="divider"></li>
-                            <li><a href="#">See all products</a></li>
+                            <li><a href="{{ route('treatments') }}">See all products</a></li>
                         </ul>
                     </li>
                     @section('scrollspy')
