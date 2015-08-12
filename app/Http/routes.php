@@ -5,6 +5,19 @@ Route::get('/', [
     'uses'  => 'PagesController@home'
 ]);
 
+Route::group(['prefix' => 'window-treatments'], function()
+{
+    Route::get('/', [
+        'as'    => 'treatments',
+        'uses'  => 'TreatmentsController@index'
+    ]);
+
+    Route::get('/{slug}', [
+        'as'    => 'treatment.show',
+        'uses'  => 'TreatmentsController@show'
+    ]);
+});
+
 // Application authentication and registration routes...
 Route::group(['prefix' => 'account'], function()
 {
