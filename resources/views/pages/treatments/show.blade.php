@@ -1,6 +1,6 @@
 @extends('app')
 @section('content')
-    <div class="row ptxl pbl">
+    <div class="row bg-white ptxl pbl nmtd">
         <div class="container">
             <div class="row">
                 <div class="col-xs-6">
@@ -9,6 +9,16 @@
                         {{ $treatment->description }}
                     </p>
                 </div>
+                <div class="col-xs-6">
+                    <div class="row">
+                        <div class="col-xs-2 col-xs-offset-8">
+                            <img class=" img-responsive" src="{{ asset('img/img-ehd.png') }}" alt="losa">
+                        </div>
+                        <div class="col-xs-2">
+                            <img class=" img-responsive" src="{{ asset('img/img-losa.png') }}" alt="losa">
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </div>
@@ -16,7 +26,7 @@
     @foreach($treatment->collections as $collection)
         <div class="row">
             <div class="container">
-                <div class="panel panel-default no-border">
+                <div class="panel panel-default no-border mtm">
                     <div class="panel-heading no-border">
                         <h4 class="no-margin">{{ $collection->name }}</h4>
                     </div>

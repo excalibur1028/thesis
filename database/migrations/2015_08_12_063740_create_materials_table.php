@@ -18,6 +18,7 @@ class CreateMaterialsTable extends Migration
             $table->string('slug')->unique();
             $table->string('composition');
             $table->text('description');
+            $table->float('price');
             $table->string('image_path');
             $table->integer('collection_id')->unsigned();
             $table->foreign('collection_id')->references('id')->on('collections');
