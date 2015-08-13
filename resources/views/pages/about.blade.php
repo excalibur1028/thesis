@@ -1,5 +1,21 @@
 <div class="row">
-    <div class="default-banner"></div>
+    <div class="default-banner">
+        <div class="carousel-slide banner-text1">
+            <div class="carousel-inner">
+                <div class="item-active text-center" style="line-height: 28px;">
+                    Up to 10% to 25% Off On Our Selected  Brands INQUIRE NOW!
+                </div>
+            </div>
+        </div>
+        <div class="carousel-slide banner-text2">
+            <div class="carousel-inner">
+                <div class="item-active text-center" style="line-height: 28px;">
+                    <h2>custom made simple</h2>
+                    <p>Welcome to Excellent Home Decor Online Store - crafting the finest fashions since 1975</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
 
 <div class="spied">
@@ -57,7 +73,7 @@
                 <div class="col-xs-4">
                     <h2 class="no-margin">Our History</h2>
                     <p class="text-justify mtl">
-                        Started its humble beginning through the effort of the late Rolando Carlos Sr. (founder).
+                        Started its humble beginning through the effort of the late Rolando Carlos Sr. and Gloria Carlos (founder).
                         Using Rolando's expertise in interior designing, he created a family-owned business in 1975 under a different company name,
                         QuaSer (Quality Service) providing expertise in window treatment and upholstery in the Philippines. In 1988, his wife, Gloria Carlos,
                         took over the family business which turned into the company name Glo's Decor and opened a small shop in Manila, Philippines.
@@ -69,7 +85,7 @@
                     </p>
                 </div>
                 <div class="col-xs-8">
-                    <img class="img-thumbnail img-responsive" src="{{ asset('img/img-about.jpg') }}" alt="About us">
+                    <img class="img-thumbnail img-responsive" src="{{ asset('img/img-about1.jpg') }}" alt="About us">
                 </div>
             </div>
         </div>
@@ -122,7 +138,7 @@
                     </p>
                 </div>
                 <div class="col-xs-8">
-                    <img class="img-thumbnail img-responsive" src="{{ asset('img/img-about.jpg') }}" alt="About us">
+                    <img class="img-thumbnail img-responsive" src="{{ asset('img/img-workforce.jpg') }}" alt="About us">
                 </div>
             </div>
         </div>
