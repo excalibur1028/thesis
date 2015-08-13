@@ -66,4 +66,20 @@ img.img-responsive {
 	display: block;
 	margin-top: -15px;
 	background-image: url('../img/banner.jpg');
+	filter: grayscale(50%);
+}
+
+.banner-text1 {
+	background-color: rgba(255, 255, 255, 0.7);
+	color: #5D514E;
+	font-family: helvetica, Arial, sans-serif;
+	height: 30px;
+}
+
+.banner-text2 {
+	background-color: rgba(96, 91, 90, 0.701961);
+	color: #fff;
+	font-family: helvetica, Arial, sans-serif;
+	height: 150px;
+	margin-top: 370px;
 }
