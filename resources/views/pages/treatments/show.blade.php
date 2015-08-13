@@ -33,7 +33,7 @@
                                     </p>
                                 </div>
                                 <div class="col-xs-3">
-                                    <a href="#" class="btn btn-warning pull-right">Customize</a>
+                                    <a href="{{ route('material.show', [$collection->slug, $material->slug]) }}" class="btn btn-warning pull-right">Customize</a>
                                 </div>
                             </div>
                         @endforeach

@@ -16,6 +16,11 @@ Route::group(['prefix' => 'window-treatments'], function()
         'as'    => 'treatment.show',
         'uses'  => 'TreatmentsController@show'
     ]);
+
+    Route::get('/{collection}/{slug}', [
+        'as'    => 'material.show',
+        'uses'  => 'MaterialsController@show'
+    ]);
 });
 
 // Application authentication and registration routes...
